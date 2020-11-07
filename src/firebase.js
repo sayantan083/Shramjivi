@@ -2,11 +2,11 @@ import firebase from 'firebase';
 import 'firebase/auth';
 // Initialize Firebase
 export default firebase.initializeApp({
-    apiKey: "AIzaSyAg9wWi7OccQPxDYWWKIeNMdcOvds-3_iE",
-    authDomain: "workout-clock.firebaseapp.com",
-    databaseURL: "https://workout-clock.firebaseio.com",
-    projectId: "workout-clock",
-    storageBucket: "workout-clock.appspot.com",
-    messagingSenderId: "563160271644",
-    appId: "1:563160271644:web:c939c10fd327bd27d508d9"
+    apiKey: "AIzaSyCU3dD6-ZwkA8yG7MitGicfGLzXveLqYRo",
+    authDomain: "codingplayground-44c7b.firebaseapp.com",
+    databaseURL: "https://codingplayground-44c7b.firebaseio.com",
+    projectId: "codingplayground-44c7b",
+    storageBucket: "codingplayground-44c7b.appspot.com",
+    messagingSenderId: "828573797166",
+    appId: "1:828573797166:web:6baa1c2d99d5ef0b13c8bf"
 });

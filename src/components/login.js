@@ -6,7 +6,6 @@ import firebase from "firebase"
 import classes from './login.module.css';
 function Login(props) {
 
-
   const handleClick = () => {
     var recaptcha = new firebase.auth.RecaptchaVerifier('recaptcha');
     var number = document.getElementById("phone").value;
@@ -20,7 +19,27 @@ function Login(props) {
       })
       .then(function (result) {
         alert("Number verified successfully");
-        props.setUser(number);
+
+
+        
+        return firebase
+          .database()
+          .ref("/userdetail/" + number)
+          .once("value")
+
+
+      }).then((data) => {
+        console.log(data.val());
+        if(data.val()==null){
+          //put
+           firebase.database().ref("/userdetail/" + number).update({phone:number}).then((res)=>{
+            localStorage.setItem('user', JSON.stringify(number));
+            props.setUser({phone:number});
+          });
+        }
+        
+        localStorage.setItem('user', JSON.stringify(number));
+        props.setUser(data.val());
       })
       .catch(function (error) {
         console.error(error);

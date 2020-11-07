@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-// import MenuNavbar from './components/MenuNavbar'
+import MenuNavbar from './components/MenuNavbar'
 import Login from './components/login'
 import Dashboard from './components/dashboard'
 import './App.css';
@@ -12,6 +12,7 @@ const App = () => {
     const loggedInUser = localStorage.getItem("user");
     if (loggedInUser && JSON.parse(loggedInUser)) {
       const myUser = JSON.parse(loggedInUser);
+      console.log(myUser);
       setUser(myUser);
     }
 
@@ -33,7 +34,7 @@ const App = () => {
               <div>
 
                 <Router>
-                  {/* <MenuNavbar setSection={setSection} /> */}
+                  <MenuNavbar setSection={setSection} />
                   <Route path="/" exact component={Dashboard} />
                   <Route path="/dashboard" component={Dashboard} />
 

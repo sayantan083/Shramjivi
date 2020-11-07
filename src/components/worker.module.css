@@ -1,0 +1,16 @@
+
+.back{
+
+    
+    background: rgb(12,8,97);
+    background: radial-gradient(circle, rgba(12,8,97,1) 15%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+    color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    height: 80vh;
+    padding: 5%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 25px;
+}
