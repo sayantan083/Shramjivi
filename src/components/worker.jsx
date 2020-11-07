@@ -3,9 +3,9 @@ import { useForm } from 'react-hook-form';
 import firebase from "../firebase"
 import classes from './worker.module.css';
 import UserContext from "../UserContext"
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
-// var stateData = require('./state.json')
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+var stateData = require('./state.json')
 export default function WorkerForm(props) {
 //   const [user, setUser] = useState({});
   const [phone, setPhone] = useState();
@@ -63,12 +63,12 @@ export default function WorkerForm(props) {
             <label class="col-sm-2 col-form-label">State</label>
             <div class="col-sm-10" >
               <select class="form-control form-control-sm" name="state" ref={register} defaultValue={user.stateData} >
-               {/* {
+               {
                  stateData.map((data)=>{
                    return <option>{data}</option>
                  })
                }
-             */}
+            
               </select>
 
             </div>
