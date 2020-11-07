@@ -1,0 +1,18 @@
+.mgrid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-image: url("https://i2.wp.com/www.davideguida.com/wp-content/uploads/2019/07/construction-worker-silhouette-work-background_43605-1096.jpg?w=626&ssl=1");
+}
+
+.rgrid{
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.lgrid{
+
+    padding: 3rem 0;
+
+
+}
