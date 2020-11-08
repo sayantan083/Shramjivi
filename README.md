@@ -15,14 +15,16 @@ Employers acn verify the workers using otp
 
 ##Screen shots of Portal
 
-1. Login Page
-[![login-ss.png](https://i.postimg.cc/8Pt74yRM/login-ss.png)](https://postimg.cc/PPvfrQF5)
 
-2. Dashboard
+1. Dashboard
 [![dashboard.png](https://github.com/devansh5/Shramjivi/blob/master/screenshots/dashboard.PNG?raw=true)
 
-3. Search workers
+2. Search workers
 [![search.PNG](https://github.com/devansh5/Shramjivi/blob/master/screenshots/search.PNG?raw=true)
+
+
+3. Verify Workers
+[![auth.PNG](https://github.com/devansh5/Shramjivi/blob/master/screenshots/auth.PNG?raw=true)]
 
 4. Post Jobs
 [![post.PNG](https://github.com/devansh5/Shramjivi/blob/master/screenshots/post.PNG?raw=true)]
@@ -30,8 +32,6 @@ Employers acn verify the workers using otp
 5. USSD on your mobile phone (No Need to have smartphone and Internet connection )
 [![Ussd.png](https://i.postimg.cc/Xv7qC9Gx/Ussd.png)](https://postimg.cc/LJwmdYVZ)
 
-6. Verify Workers
-[![auth.PNG](https://github.com/devansh5/Shramjivi/blob/master/screenshots/auth.PNG?raw=true)]
 
 ## Stack used 
 1.React js
