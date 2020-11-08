@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import MenuNavbar from './components/MenuNavbar';
-import Login from './components/login';
-import Dashboard from './components/dashboard';
-import PostJob from './components/postJob';
+import MenuNavbar from './components/Navbar/MenuNavbar';
+import Login from './components/Login/login';
+import Dashboard from './components/Dashboard/dashboard';
+import PostJob from './components/Postjob/postJob';
 import './App.css';
 import UserContext from "./UserContext";
 import { BrowserRouter as Router, Route } from "react-router-dom"

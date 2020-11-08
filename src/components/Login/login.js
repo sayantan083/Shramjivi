@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import '../firebase';
+import '../../firebase';
 import firebase from "firebase"
 import classes from './login.module.css';
 function Login(props) {
