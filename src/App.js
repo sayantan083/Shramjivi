@@ -3,6 +3,7 @@ import MenuNavbar from './components/MenuNavbar';
 import Login from './components/login';
 import Dashboard from './components/dashboard';
 import PostJob from './components/postJob';
+import SearchWorker from "./components/searchWorker";
 import './App.css';
 import UserContext from "./UserContext";
 import { BrowserRouter as Router, Route } from "react-router-dom"
@@ -38,7 +39,8 @@ const App = () => {
                   <MenuNavbar setSection={setSection} setUser={setUser} />
                   <Route path="/" exact component={Dashboard} />
                   <Route path="/dashboard" component={Dashboard} />
-                  <Route  path="/postjob" component={PostJob}/>
+                  <Route path="/postjob" component={PostJob} />
+                  <Route path="/searchWorker" component={SearchWorker} />
                 </Router>
               </div>
             )
