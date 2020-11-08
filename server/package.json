@@ -1,0 +1,25 @@
+{
+  "name": "T-Hacks3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rj33536/T-Hacks3.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rj33536/T-Hacks3.0/issues"
+  },
+  "homepage": "https://github.com/rj33536/T-Hacks3.0#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.22.0",
+    "twilio": "^3.49.3"
+  }
+}
