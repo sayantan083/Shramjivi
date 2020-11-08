@@ -44,7 +44,7 @@ function Workerauthenticate(props) {
     return (
         <div className={classes.back}>
 
-            <h1 className={classes.heading}>Kaam Dhandha</h1>
+            <h1 className={classes.heading}>ShramJivi</h1>
 
             <div className={classes.loginpage}>
 
