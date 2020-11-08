@@ -46,7 +46,7 @@ export default function MenuNavbar(props) {
                 <Link to="/dashboard"><button className="btn btn-info m-2 ">Dashboard</button></Link>
                 <Link to="/searchWorker"><button className="btn btn-info m-2 ">Search</button></Link>
                 <Link to="/postjob"><button className="btn btn-info m-2 ">Post Job</button></Link>
-                <Link to="/Workerauthenticate"><button className="btn btn-info m-2 ">Auth Majdoor</button></Link>
+                <Link to="/verify"><button className="btn btn-info m-2 ">Auth Majdoor</button></Link>
               </div>
 
               ) :

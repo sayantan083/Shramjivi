@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import MenuNavbar from './components/MenuNavbar';
-import Login from './components/login';
-import Dashboard from './components/dashboard';
-import PostJob from './components/postJob';
-import SearchWorker from "./components/searchWorker";
+import MenuNavbar from './components/Navbar/MenuNavbar';
+import Login from './components/Login/login';
+import Dashboard from './components/Dashboard/dashboard';
+import PostJob from './components/Postjob/postJob';
+import SearchWorker from "./components/SearchWorker/searchWorker";
+import Workerauthenticate from "./components/AuthenticateWorker/AuthenticateWorker"
 import './App.css';
 import UserContext from "./UserContext";
 import { BrowserRouter as Router, Route } from "react-router-dom"
@@ -41,6 +42,7 @@ const App = () => {
                   <Route path="/dashboard" component={Dashboard} />
                   <Route path="/postjob" component={PostJob} />
                   <Route path="/searchWorker" component={SearchWorker} />
+                  <Route path="/verify" component={Workerauthenticate} />
                 </Router>
               </div>
             )

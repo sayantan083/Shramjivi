@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { useForm } from 'react-hook-form';
-import firebase from "../firebase"
-import classes from './worker.module.css';
-import UserContext from "../UserContext"
+import firebase from "../../firebase"
+import classes from '../../worker.module.css';
+import UserContext from "../../UserContext"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-var stateData = require('./state.json')
+var stateData = require('../../state.json')
 export default function WorkerForm(props) {
 //   const [user, setUser] = useState({});
   const [phone, setPhone] = useState();

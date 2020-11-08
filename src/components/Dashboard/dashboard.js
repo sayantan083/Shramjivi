@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 // import Ecard from './Ecard'
 import classes from './dashboard.module.css'
-import Myprofile from './Myprofile'
-import WorkerForm from './worker'
+import Myprofile from '../Profile/Myprofile'
+import WorkerForm from '../Profile/worker'
 import { Redirect } from "react-router-dom"
 import { Spinner } from 'react-bootstrap'
-import UserContext from "../UserContext";
+import UserContext from "../../UserContext";
 function Dashboard(props){
     return (
       <UserContext.Consumer>

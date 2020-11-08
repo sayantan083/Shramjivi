@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import '../firebase';
+import '../../firebase';
 import firebase from "firebase"
 import classes from './login.module.css';
 function Login(props) {
@@ -21,7 +21,7 @@ function Login(props) {
         alert("Number verified successfully");
 
 
-        
+
         return firebase
           .database()
           .ref("/userdetail/" + number)
@@ -30,16 +30,24 @@ function Login(props) {
 
       }).then((data) => {
         console.log(data.val());
-        if(data.val()==null){
-          //put
-           firebase.database().ref("/userdetail/" + number).update({phone:number}).then((res)=>{
-            localStorage.setItem('user', JSON.stringify(number));
-            props.setUser({phone:number});
-          });
+        const userObj = {
+          phone: number,
+          fullname: "",
+          address: ""
+        };
+        if (data.val() == null) {
+          firebase.database().ref("/userdetail/" + number)
+            .update(userObj)
+            .then((res) => {
+              localStorage.setItem('user', JSON.stringify(userObj));
+              props.setUser(userObj);
+            });
+        } else {
+
+          localStorage.setItem('user', JSON.stringify(userObj));
+          props.setUser(data.val());
         }
-        
-        localStorage.setItem('user', JSON.stringify(number));
-        props.setUser(data.val());
+
       })
       .catch(function (error) {
         console.error(error);

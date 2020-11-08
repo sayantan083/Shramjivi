@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 // import { Redirect } from 'react-router';
 import { Redirect, Link } from 'react-router-dom';
 import HomeIcon from '@material-ui/icons/Home';
-import firebase from "../firebase";
+import firebase from "../../firebase";
 
 function Ecard(props) {
   const [jobs,setJobs] = useState([]);

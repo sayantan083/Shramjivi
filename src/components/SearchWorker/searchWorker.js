@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./searchWorker.css";
-import firebase from '../firebase';
+import firebase from '../../firebase';
 import { Button } from 'react-bootstrap';
 import IconButton from '@material-ui/core/IconButton';
 import LocationOnTwoToneIcon from '@material-ui/icons/LocationOnTwoTone';
