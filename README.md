@@ -1,14 +1,10 @@
 ## Shramjivi
-Simplistic Web Portal designed to create jobs for the workers and the lower class employess who are not well read and have limited resources (i.e no access to internet and no smart phones)
-There is only one login with phone number which is otp based so need to remember passwords
-Once registered worker will get regular updates via SMS ( if registered as active worker ).
-Activity and other Job fetching controls are controlled with help of USSD no.
+The bottom strata of the working class often feels left off in this world of smartphones. They find it difficult to search jobs and are mostly under the whims and fancies of their contractors. So there is a need of a simplistic portal where they can find a job. The portal must be easy to operate and economical for them.
 
+Shramjivi is a Simplistic Web Portal designed to provide jobs for the bottom strata of the working class who are not well qualified and have very limited resources i.e., have no access to internet and smart phones. In Shramjivi there is only one type of login which is based on phone number. Login is basically OTP based, so he/she need not to remember passwords. Once registered, worker will get regular updates via SMS (if registered as active worker). Activity and other Job fetching controls are controlled with the help of USSD number.
 
-The employers are required to login every time they post the jobs and others updates will be SMS based also
-Posting job is fairly simple.
-Search jobs option is there so u can get the contact no of the workers directly as well 
-Employers acn verify the workers using otp 
+The employers are required to login whenever they want to post jobs, and other updates will be SMS based. Also posting job is fairly simple. Employers can search workers and can get the contact no of the workers. They can also verify workers via OTP.
+
 
 ## Use Case diagram
 [![Untitled-Document.png](https://i.postimg.cc/6QQLz245/Untitled-Document.png)](https://postimg.cc/zy9gGfk9)
